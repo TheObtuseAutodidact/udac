@@ -1,3 +1,142 @@
-h1 {
-  color: green;
+/*h1 {
+  color: green;  // this was used as test
+}*/
+
+* {
+    /*border: 1px solid red !important;*/
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+/* the above is from the downloaded example */
+
+  /*@media only screen and (max-width: 500px) and (orientation: landscape) {
+    p {
+      display: none;
+    }
+  }*/
+
+  img {
+    max-width: 100%;
+  }
+
+  .container {
+    margin: auto;
+  }
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-1 {
+  width: 8.33%
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.logo {
+  border-radius: 50%;
+}
+
+.title-ish {
+  margin-top: 20px;
+  margin-bottom: 35px;
+  border:solid 2px #BCBBBB;
+}
+
+.featuring {
+  margin-left: 5px;
+  /*font-weight: bold; -- doing nothing  */
+  color: #BCBBBB;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.center-feature {
+  padding-left: 10px;
+  padding-right:10px;
+}
+
+.right-feature {
+  padding-left: 20px;
+}
+
+.left-feature {
+  padding-right: 20px;
+}
+
+.feature-title {
+  width: 100%;
+  text-align: center;
+}
+
+.feature-location {
+  text-align: center;
+}
+
+.name {
+  font-size: 62px;
+  margin-top: 10px;
+}
+
+.role {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+#calling-card {
+  text-align: right;
+  text-transform: uppercase
 }
